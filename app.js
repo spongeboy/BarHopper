@@ -45,7 +45,8 @@ app.put('/api/pubs/:id', routes.api.pub_update);
 app.post('/api/pubs', routes.api.pub_create);
 app.delete('/api/pubs/:id', routes.api.pub_delete);
 
-app.get('/api/pubs/near/:long/:lat', routes.api.pubs_near)
+app.get('/api/pubs/near/:lon/:lat', routes.api.pubs_near)
+app.get('/api/pubs/distances/:lon/:lat', routes.api.pubs_near_with_distances)
 
 
 http.createServer(app).listen(app.get('port'), function(){

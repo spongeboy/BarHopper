@@ -66,33 +66,48 @@ exports.pub_delete = function(req, res){
     });
 };
 
-exports.pubs_near = function(req, res){
+exports.pubs_near_with_distances = function(req, res){
 
-    var long = parseFloat(req.params.long);
+    var lon = parseFloat(req.params.lon);
     var lat = parseFloat(req.params.lat);
 
-    Pub.db.db.executeDbCommand({geoNear : "pubs", near : [long,lat], spherical: true, maxDistance : 300 / 6378, num : 2  },
-        function(err,res) {
-            console.log(res.documents[0].results);
-            return res.send(res);
+    var range = 300 / 6378; //300KM (result in radians, earth radius is 6378km)
+    var numberOfPubs = 4;
+
+    return Pub.db.db.executeDbCommand({geoNear : "pubs", near : [lon,lat], spherical: true, maxDistance : range, num : numberOfPubs  },
+        function(err,pubs) {
+            if (!err) {
+                console.log(pubs.documents[0].results);
+                return res.send(pubs.documents[0].results);
+            }
         });
-
-    /*return Pub.find({"location" : { "geoNear" : [ long, lat ] } }, {spherical : true },function(err,pubs){
-        if (!err) {
-            console.log("Long:" + req.params.long + ",Lat:" + req.params.lat);
-            return res.send(pubs);
-        }
-    });
-    */
-
-    /*return Pub.find({"location" : { "$nearSphere" : [ long, lat ] } },function(err,pubs){
-        if (!err) {
-            console.log("Long:" + req.params.long + ",Lat:" + req.params.lat);
-            return res.send(pubs);
-        }
-    });
-    */
 };
 
+exports.pubs_near = function(req, res){
+
+    var lon = parseFloat(req.params.lon);
+    var lat = parseFloat(req.params.lat);
+
+    var numberOfPubs = 4;
+
+    var q = Pub.find({"location" : { "$nearSphere" : [ lon, lat ] } }).limit(numberOfPubs);
+
+    return q.execFind(function(err,pubs){
+        if (!err) {
+            console.log("Long:" + req.params.lon + ",Lat:" + req.params.lat);
+            return res.send(pubs);
+        }
+    });
+
+    /*
+    return Pub.find({"location" : { "$nearSphere" : [ lon, lat ] } },function(err,pubs){
+        if (!err) {
+            console.log("Long:" + req.params.lon + ",Lat:" + req.params.lat);
+            return res.send(pubs);
+        }
+    });
+    */
+
+};
 
 

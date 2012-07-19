@@ -2,87 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="685424d0-0f62-4d81-89ca-b51705333b82" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/api/pubs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/layout.html" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\.bin\jade" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\.bin\jade.cmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\jade.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\jade.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\jade.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\compiler.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\doctypes.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\filters.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\inline-tags.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\jade.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\lexer.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\nodes\attrs.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\nodes\block-comment.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\nodes\block.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\nodes\case.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\nodes\code.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\nodes\comment.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\nodes\doctype.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\nodes\each.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\nodes\filter.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\nodes\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\nodes\literal.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\nodes\mixin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\nodes\node.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\nodes\tag.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\nodes\text.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\parser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\runtime.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\self-closing.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\lib\utils.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\commander\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\commander\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\commander\History.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\commander\Makefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\commander\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\commander\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\commander\lib\commander.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\commander\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\.gitignore.orig" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\.gitignore.rej" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\examples\pow.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\examples\pow.js.orig" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\examples\pow.js.rej" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\test\chmod.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\test\clobber.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\test\mkdirp.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\test\perm.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\test\perm_sync.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\test\race.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\test\rel.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\test\sync.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\test\umask.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\node_modules\mkdirp\test\umask_sync.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\runtime.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\runtime.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\test.jade" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\testing\head.jade" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\testing\index.jade" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\testing\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\testing\layout.jade" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\testing\user.jade" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\node_modules\jade\testing\user.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\BarHopper\Src\BarHopper\views\layout.jade" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api/pubs.js" afterPath="$PROJECT_DIR$/routes/api/pubs.js" />
     </list>
     <ignored path="BarHopper.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,7 +29,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="32" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
+            <state line="48" column="76" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,7 +38,7 @@
       <file leaf-file-name="pubs.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/api/pubs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="33" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.35791367">
+            <state line="99" column="7" selection-start="2509" selection-end="2509" vertical-scroll-proportion="0.54136693">
               <folding />
             </state>
           </provider>
@@ -342,6 +264,11 @@
       <created>1342588626417</created>
       <updated>1342588626417</updated>
     </task>
+    <task id="LOCAL-00001" summary="Moar changes.">
+      <created>1342685115779</created>
+      <updated>1342685115779</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -353,7 +280,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984913" sideWeight="0.6709007" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984913" sideWeight="0.6709007" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -468,14 +395,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="32" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
+        <state line="48" column="76" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/api/pubs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="33" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.35791367">
+        <state line="99" column="7" selection-start="2509" selection-end="2509" vertical-scroll-proportion="0.54136693">
           <folding />
         </state>
       </provider>
