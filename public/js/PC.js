@@ -11,10 +11,11 @@ PC.core = (function(core, $, undefined){
 	
 		var pubCrawl = [], pubs;
 
-        //Test - get pubs near Lord Nelson
+
         $.ajax({
             type:       'GET',
-            url:        '/api/pubs/near/151.203359/-33.858166/',
+            url:        '/api/pubs/near/151.203359/-33.858166/', //Test - get pubs near Lord Nelson
+            //url:        '/api/pubs/near/151.187148/-33.879697/',   //Test - get pubs near Ancient Briton
             dataType:   'json',
             async:      false,
             data:       {},
