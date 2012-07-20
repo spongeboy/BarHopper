@@ -72,7 +72,7 @@ exports.pubs_near_with_distances = function(req, res){
     var lat = parseFloat(req.params.lat);
 
     var range = 300 / 6378; //300KM (result in radians, earth radius is 6378km)
-    var numberOfPubs = 4;
+    var numberOfPubs = 6;
 
     return Pub.db.db.executeDbCommand({geoNear : "pubs", near : [lon,lat], spherical: true, maxDistance : range, num : numberOfPubs  },
         function(err,pubs) {
@@ -88,10 +88,9 @@ exports.pubs_near = function(req, res){
     var lon = parseFloat(req.params.lon);
     var lat = parseFloat(req.params.lat);
 
-    var numberOfPubs = 4;
+    var numberOfPubs = 20;
 
     /*
-
     //Chaining example
     var q = Pub.find({"location" : { "$nearSphere" : [ lon, lat ] } }).limit(numberOfPubs);
 
@@ -104,7 +103,7 @@ exports.pubs_near = function(req, res){
     */
 
 
-    return Pub.find({"location" : { "$nearSphere" : [ lon, lat ] } },[],{limit: 4},function(err,pubs){
+    return Pub.find({"location" : { "$nearSphere" : [ lon, lat ] } },[],{limit: numberOfPubs},function(err,pubs){
         if (!err) {
             console.log("Long:" + req.params.lon + ",Lat:" + req.params.lat);
             return res.send(pubs);
