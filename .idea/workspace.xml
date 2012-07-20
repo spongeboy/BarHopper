@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="685424d0-0f62-4d81-89ca-b51705333b82" name="Default" comment="Fixed non-chaining 'near' function." />
+    <list default="true" id="685424d0-0f62-4d81-89ca-b51705333b82" name="Default" comment="Fixed non-chaining 'near' function.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/PC.js" afterPath="$PROJECT_DIR$/public/js/PC.js" />
+    </list>
     <ignored path="BarHopper.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,7 +46,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="432" selection-end="440" vertical-scroll-proportion="-7.8076925">
+            <state line="21" column="0" selection-start="432" selection-end="440" vertical-scroll-proportion="-7.8076925">
               <folding />
             </state>
           </provider>
@@ -52,7 +55,7 @@
       <file leaf-file-name="PC.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/PC.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="70" selection-start="1190" selection-end="1190" vertical-scroll-proportion="-0.9375">
+            <state line="251" column="55" selection-start="7185" selection-end="7185" vertical-scroll-proportion="0.5637255">
               <folding />
             </state>
           </provider>
@@ -79,8 +82,8 @@
         <option value="$PROJECT_DIR$/views/index.html" />
         <option value="$PROJECT_DIR$/views/layout.html" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/public/js/PC.js" />
         <option value="$PROJECT_DIR$/routes/api/pubs.js" />
+        <option value="$PROJECT_DIR$/public/js/PC.js" />
       </list>
     </option>
   </component>
@@ -374,14 +377,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="432" selection-end="440" vertical-scroll-proportion="-7.8076925">
+        <state line="21" column="0" selection-start="432" selection-end="440" vertical-scroll-proportion="-7.8076925">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/PC.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="70" selection-start="1190" selection-end="1190" vertical-scroll-proportion="-0.9375">
+        <state line="251" column="55" selection-start="7185" selection-end="7185" vertical-scroll-proportion="0.5637255">
           <folding />
         </state>
       </provider>
