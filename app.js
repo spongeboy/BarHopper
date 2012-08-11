@@ -3,10 +3,10 @@
  * Module dependencies.
  */
 
-var express = require('express')
-  , routes = require('./routes')
-  , partials = require('express-partials')
-  , http = require('http');
+var express = require('express'),
+	routes = require('./routes'),
+	partials = require('express-partials'),
+	http = require('http');
 
 var app = express();
 
